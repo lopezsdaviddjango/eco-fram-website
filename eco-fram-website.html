@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO-FRAM | Marcos Sustentables</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-green: #2c7a4f;
+            --secondary-green: #4ca975;
+            --light-green: #e8f5e9;
+            --dark-green: #1b4f33;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .bg-custom-green {
+            background-color: var(--primary-green);
+            color: white;
+        }
+
+        .btn-custom-green {
+            background-color: var(--secondary-green);
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .btn-custom-green:hover {
+            background-color: var(--dark-green);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .section-light {
+            background-color: var(--light-green);
+        }
+
+        .hero-section {
+            background: linear-gradient(rgba(44, 122, 79, 0.9), rgba(44, 122, 79, 0.9)), url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+            padding: 150px 0;
+            color: white;
+        }
+
+        .card {
+            transition: transform 0.3s ease;
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-green);
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+        }
+
+        .process-step {
+            position: relative;
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+
+        .img-hover {
+            transition: transform 0.3s ease;
+        }
+
+        .img-hover:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-custom-green fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#">
+            <img src="https://freeimage.host/i/2EWPaUJ" alt="ECO-FRAM Logo" width="**logo_width**" height="**logo_height**">
+          </a>
+          </div>
+      </nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-custom-green fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">ECO-FRAM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#proceso">Proceso</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4">ECO-FRAM</h1>
+            <p class="lead mb-4">Transformando papel periódico en arte sustentable</p>
+            <a href="#productos" class="btn btn-light btn-lg">Descubre nuestros productos</a>
+        </div>
+    </header>
+
+    <!-- Nosotros Section -->
+    <section id="nosotros" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://s11.aconvert.com/convert/p3r68-cdx67/kklso-d3fox.webp" alt="Acerca de ECO-FRAM" class="img-fluid rounded img-hover">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-4" style="color: var(--primary-green)">Nuestra Historia</h2>
+                    <p>ECO-FRAM nació de la pasión por el arte y el compromiso con el medio ambiente. Cada marco que creamos representa nuestra dedicación por transformar materiales reciclados en piezas únicas que adornarán tus momentos más especiales.</p>
+                    <p>Nuestro equipo de artesanos combina técnicas tradicionales con innovación para crear marcos que no solo son hermosos, sino que también contribuyen a la conservación del planeta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visión y Misión -->
+    <section class="py-5 section-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-eye feature-icon"></i>
+                            <h2 class="card-title" style="color: var(--primary-green)">Visión</h2>
+                            <p class="card-text">Ser líder de la innovación y creación de Marcos de papel periodico, echo con una creatividad y inspiración de nuestro equipo, dando un toque único a cada recuerdo, como también promover el cuidado del Medioambiente</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-bullseye feature-icon"></i>
+                            <h2 class="card-title" style="color: var(--primary-green)">Misión</h2>
+                            <p class="card-text">Producir Marcos de papel periódico con diseños únicos y originales, como también personalizados a tu gusto, así mismos tomando conciencia ambiental</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: var(--primary-green)">Nuestros Productos</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/fb/c3/34/fbc33491e24e7ead3a6df25b00ef9993.jpg" class="card-img-top" alt="Marco Clásico">
+                        <div class="card-body">
+                            <h5 class="card-title">Marco Clásico</h5>
+                            <p class="card-text">Diseño tradicional con un toque ecológico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HyN7Qd8YqcfbqgG88Wj80cpnhYJ1BjS4Pg&s" class="card-img-top" alt="Marco Moderno">
+                        <div class="card-body">
+                            <h5 class="card-title">Marco Moderno</h5>
+                            <p class="card-text">Diseños contemporáneos para espacios actuales</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/81/f6/f2/81f6f25347312663d2802c09df2daac9.jpg" class="card-img-top" alt="Marco Personalizado">
+                        <div class="card-body">
+                            <h5 class="card-title">Marco Personalizado</h5>
+                            <p class="card-text">Diseñado según tus especificaciones</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso -->
+    <section id="proceso" class="py-5 section-light">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: var(--primary-green)">Nuestro Proceso</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="process-step text-center">
+                        <i class="fas fa-newspaper feature-icon"></i>
+                        <h4>Recolección</h4>
+                        <p>Seleccionamos cuidadosamente el papel periódico</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="process-step text-center">
+                        <i class="fas fa-recycle feature-icon"></i>
+                        <h4>Procesamiento</h4>
+                        <p>Transformamos el papel en material resistente</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="process-step text-center">
+                        <i class="fas fa-paint-brush feature-icon"></i>
+                        <h4>Diseño</h4>
+                        <p>Creamos diseños únicos y personalizados</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="process-step text-center">
+                        <i class="fas fa-check-circle feature-icon"></i>
+                        <h4>Acabado</h4>
+                        <p>Aplicamos acabados protectores ecológicos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: var(--primary-green)">Nuestros Valores</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-lightbulb feature-icon"></i>
+                            <h5 class="card-title">Creatividad</h5>
+                            <p>Innovamos constantemente en nuestros diseños</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-leaf feature-icon"></i>
+                            <h5 class="card-title">Cuidado del medio ambiente</h5>
+                            <p>Comprometidos con la sostenibilidad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-star feature-icon"></i>
+                            <h5 class="card-title">Calidad</h5>
+                            <p>Excelencia en cada detalle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="py-5 section-light">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: var(--primary-green)">Lo que dicen nuestros clientes</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="mb-3">"Los marcos son hermosos y únicos. Me encanta que sean ecológicos."</p>
+                        <p class="fw-bold mb-0">- María García</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="mb-3">"Excelente calidad y diseños personalizados increíbles."</p>
+                        <p class="fw-bold mb-0">- Juan Pérez</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="mb-3">"Una forma creativa de contribuir al medio ambiente."</p>
+                        <p class="fw-bold mb-0">- Ana Martínez</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="contacto" class="section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: var(--primary-green)">Contáctanos</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="https://api.web3forms.com/submit" method="POST" class="needs-validation" novalidate>
+                                <!-- Web3Forms Access Key -->
+                                <input type="hidden" name="access_key" value="f2b56c70-a4aa-4ac2-94a2-e80847b38660">
+                                
+                                <!-- Nombre -->
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="name" required>
+                                    <div class="invalid-feedback">
+                                        Por favor ingrese su nombre
+                                    </div>
+                                </div>
+    
+                                <!-- Email -->
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback">
+                                        Por favor ingrese un correo electrónico válido
+                                    </div>
+                                </div>
+    
+                                <!-- Asunto -->
+                                <div class="mb-3">
+                                    <label for="asunto" class="form-label">Asunto</label>
+                                    <select class="form-select" id="asunto" name="subject" required>
+                                        <option value="">Selecciona un asunto</option>
+                                        <option value="Cotización">Solicitar cotización</option>
+                                        <option value="Diseño Personalizado">Diseño personalizado</option>
+                                        <option value="Información">Información general</option>
+                                        <option value="Otro">Otro</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Por favor seleccione un asunto
+                                    </div>
+                                </div>
+    
+                                <!-- Mensaje -->
+                                <div class="mb-3">
+                                    <label for="mensaje" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="mensaje" name="message" rows="4" required></textarea>
+                                    <div class="invalid-feedback">
+                                        Por favor ingrese su mensaje
+                                    </div>
+                                </div>
+    
+                                <!-- Redirect URL after submission -->
+                                <input type="hidden" name="redirect" value="eco-fram.com.html">                                <!-- Submit Button -->
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Form Validation Script -->
+    <script>
+    (function () {
+        'use strict'
+        var forms = document.querySelectorAll('.needs-validation')
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+    </script>
+
